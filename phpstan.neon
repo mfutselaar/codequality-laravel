@@ -11,5 +11,5 @@
                 - tests
               excludePaths:
                 - app/Http/Resources/*
-              level: 6 # (0-8)
+              level: 8 # (0-8)
               checkMissingIterableValueType: false
