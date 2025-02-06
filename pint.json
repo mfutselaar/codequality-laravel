@@ -1,0 +1,26 @@
+{
+    "preset": "laravel",
+    "rules": {
+        "increment_style": false,
+        "binary_operator_spaces": false,
+        "concat_space": false,
+        "new_with_parentheses": false,
+        "declare_strict_types": true,
+        "not_operator_with_successor_space": false,
+        "return_type_declaration": true,
+        "statement_indentation": false
+    },
+    "exclude": [
+        "database",
+        "routes",
+        "config"
+    ],
+    "notPath": [
+        "bootstrap/app.php",
+        "tests/Feature/ExampleTest.php",
+        "tests/TestCase.php",
+        "tests/Unit/ExampleTest.php",
+        "public/index.php",
+        "bootstrap/providers.php"
+    ]
+}

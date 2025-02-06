@@ -6,10 +6,12 @@ grumphp:
             - vendor/bin
 
     tasks:
-        phpcs:
+        composer_script:
+            script: pint
+            triggered_by: [php]
+            working_directory: ~
         phpstan:
             configuration: phpstan.neon
             memory_limit: "-1"
             use_grumphp_paths: false
         phpunit:
-            always_execute: true
